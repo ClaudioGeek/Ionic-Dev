@@ -1,0 +1,23 @@
+#These are the command to install and run ionic 
+sudo apt update
+sudo apt upgrade
+sudo apt install nodejs
+sudo apt install npm
+node --version
+npm --version
+sudo npm install -g ionic
+sudo npm install -g cordova
+
+#Starting your first project
+ionic start
+
+#Give a name to you first app
+#after runing the above command it will create the app for you
+#next step you go into that created folder for the app
+
+cd appName
+#now inside the app folder you should run the following
+ionic serve
+
+#you can edit your app by going into the cd /appName/src
+#you will find the editable source files
