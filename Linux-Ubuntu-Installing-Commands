@@ -19,5 +19,5 @@ cd appName
 #now inside the app folder you should run the following
 ionic serve
 
-#you can edit your app by going into the cd /appName/src
+#you can edit your app by going into the cd /appName/src/app
 #you will find the editable source files
